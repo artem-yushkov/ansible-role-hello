@@ -1,2 +1,4 @@
 ---
-# tasks file for hello
+- debug:
+    msg: "View test_env: {{ test_env }}"
+  tags: apply
